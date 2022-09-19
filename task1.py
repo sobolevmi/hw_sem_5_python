@@ -15,4 +15,4 @@ def delete_text(input_string):
 
 user_string = str(input("Введите строку: "))
 result_string = delete_text(user_string)
-print(result_string)
+print(f"{user_string} -> {result_string}")
